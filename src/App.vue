@@ -2,7 +2,7 @@
   <div id="app">
     <mu-appbar color="primary" style="width: 100%">
       <div slot="left">
-        <img src="./assets/detective.png" alt="谁是大侦探">
+        <img src="http://7xinvi.com1.z0.glb.clouddn.com/detective.png" alt="谁是大侦探">
         <h2>谁是大侦探</h2>
       </div>
       <div slot="right">
