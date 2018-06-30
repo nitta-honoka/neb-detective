@@ -4,7 +4,7 @@
       <mu-col span="8" sm="12" md="8">
         <mu-row :gutter="true" wrap="wrap">
           <mu-col v-for="story in stories" :key="story.id"
-            span="4" sm="12" md="6" lg="4">
+            span="6" sm="12" md="6" xl="4">
             <mu-card :raised="true">
               <mu-card-header
                 :title="story.status ? `${story.title}（已解决）` : story.title"
