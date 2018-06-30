@@ -15,10 +15,11 @@ Vue.use(Toasted, {
 
 Nasa.contract.set({
   default: {
-    testnet: 'n1w1RLvQUchyN3w71BJaPCM7rY8bGqF7C5x'
+    testnet: 'n1w1RLvQUchyN3w71BJaPCM7rY8bGqF7C5x',
+    mainnet: 'n1ri524hDt33o9dLjSKcw4U6qXrRTsVhhtt'
   }
 })
-Nasa.env.set('testnet')
+Nasa.env.set('mainnet')
 
 new Vue({
   // router,
